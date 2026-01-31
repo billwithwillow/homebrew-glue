@@ -1,8 +1,8 @@
 class Glue < Formula
   desc "Dev-only UI annotation tool with source-linked element IDs"
   homepage "https://github.com/billwithwillow/glue"
-  url "https://registry.npmjs.org/@glue/dev-cli/-/@glue/dev-cli-2.1.0.tgz"
-  sha256 "3ea0fc9a92784652804f547666a2be597e887b70f2af4c29bc1bcc8b3a3107ee"
+  url "https://registry.npmjs.org/@glue/dev-cli/-/@glue/dev-cli-2.1.1.tgz"
+  sha256 "850ff0d9b3488eea3240843fa8a4a0ec4c108df8255bba5e3087fa39e8c7d6d3"
   license "MIT"
 
   depends_on "node"
@@ -13,6 +13,6 @@ class Glue < Formula
   end
 
   test do
-    assert_match "2.1.0", shell_output("#{bin}/glue --version")
+    assert_match "2.1.1", shell_output("#{bin}/glue --version")
   end
 end
