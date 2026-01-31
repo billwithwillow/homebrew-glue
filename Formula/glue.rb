@@ -1,8 +1,8 @@
 class Glue < Formula
   desc "Dev-only UI annotation tool with source-linked element IDs"
   homepage "https://github.com/billwithwillow/glue"
-  url "https://registry.npmjs.org/@glue/dev-cli/-/@glue/dev-cli-2.1.1.tgz"
-  sha256 "850ff0d9b3488eea3240843fa8a4a0ec4c108df8255bba5e3087fa39e8c7d6d3"
+  url "https://registry.npmjs.org/@getglue/dev-cli/-/@getglue/dev-cli-2.1.1.tgz"
+  sha256 "62e79cb8e244b75f64faab10a11c17dd6ddf884ffe48cf00f6a60fbeb3dfecf5"
   license "MIT"
 
   depends_on "node"
