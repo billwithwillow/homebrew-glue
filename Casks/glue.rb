@@ -1,6 +1,6 @@
 cask "glue" do
-  version "2.2.9"
-  sha256 "6c68e99d60eb7ef3594bb10753e38f07bd58743302f03becc62aa87fdcada8b4"
+  version "2.3.0"
+  sha256 "057081d2b923f1e03a54b4872b7a26fb5b760bb200be87f430aaf5b776d61e02"
 
   url "https://github.com/billwithwillow/glue-releases/releases/download/v#{version}/Glue-#{version}-mac.zip"
   name "Glue"
