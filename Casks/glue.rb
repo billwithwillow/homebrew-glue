@@ -9,7 +9,7 @@ cask "glue" do
 
   app "Glue.app"
 
-  binary "#{appdir}/Glue.app/Contents/MacOS/glue-cli", target: "glue"
+  binary "#{appdir}/Glue.app/Contents/Resources/glue-cli", target: "glue"
 
   zap trash: [
     "~/Library/Application Support/Glue",
