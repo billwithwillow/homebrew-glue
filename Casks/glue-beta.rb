@@ -1,6 +1,6 @@
 cask "glue-beta" do
-  version "2.18.0-beta.8"
-  sha256 "8df03220e73ef3abf66abdfeb5e8f51a8bf566817b3baee2366826cde36efb28"
+  version "2.18.0-beta.9"
+  sha256 "6023c2964d3ccd51204e67859227ef127f5834930f8dc7b656dfb5e45ff199eb"
 
   url "https://github.com/billwithwillow/glue-releases/releases/download/v#{version}/Glue-Beta-#{version}-mac.zip"
   name "Glue Beta"
